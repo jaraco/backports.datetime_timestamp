@@ -16,7 +16,7 @@ class _UTC(datetime.tzinfo):
 		return ZERO
 
 _utc = _UTC()
-_EPOCH = datetime(1970, 1, 1, tzinfo=_utc)
+_EPOCH = datetime.datetime(1970, 1, 1, tzinfo=_utc)
 
 def timestamp(dt):
 	"""
