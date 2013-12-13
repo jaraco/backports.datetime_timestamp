@@ -17,7 +17,12 @@ setup_params = dict(
 	url="https://bitbucket.org/jaraco/backports.datetime_timestamp",
 	packages=setuptools.find_packages(),
 	namespace_packages=['backports'],
-	zip_safe=False,
+	classifiers = [
+		"Development Status :: 5 - Production/Stable",
+		"Intended Audience :: Developers",
+		"Programming Language :: Python :: 2.7",
+		"Programming Language :: Python :: 3",
+	],
 	setup_requires=[
 		'hgtools',
 	],
