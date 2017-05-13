@@ -21,6 +21,9 @@ _EPOCH = datetime.datetime(1970, 1, 1, tzinfo=_utc)
 def timestamp(dt):
 	"""
 	Return POSIX timestamp as float.
+
+	>>> timestamp(datetime.datetime.now()) > 1494638812
+	True
 	"""
 	if dt.tzinfo is None:
 		return time.mktime((dt.year, dt.month, dt.day,
