@@ -27,6 +27,9 @@ def timestamp(dt):
 
 	>>> timestamp(datetime.datetime.now()) > 1494638812
 	True
+
+	>>> timestamp(datetime.datetime.now()) % 1 > 0
+	True
 	"""
 	if dt.tzinfo is None:
 		return time.mktime((
