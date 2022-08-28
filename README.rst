@@ -1,16 +1,21 @@
 .. image:: https://img.shields.io/pypi/v/backports.datetime_timestamp.svg
-   :target: https://pypi.org/project/backports.datetime_timestamp
+   :target: `PyPI link`_
 
 .. image:: https://img.shields.io/pypi/pyversions/backports.datetime_timestamp.svg
+   :target: `PyPI link`_
 
-.. image:: https://img.shields.io/travis/jaraco/backports.datetime_timestamp/master.svg
-   :target: http://travis-ci.org/jaraco/backports.datetime_timestamp
+.. _PyPI link: https://pypi.org/project/backports.datetime_timestamp
 
-.. .. image:: https://img.shields.io/appveyor/ci/jaraco/backports.datetime_timestamp/master.svg
-..    :target: https://ci.appveyor.com/project/jaraco/backports.datetime_timestamp/branch/master
+.. image:: https://github.com/jaraco/backports.datetime_timestamp/workflows/Automated%20Tests/badge.svg
+   :target: https://github.com/jaraco/backports.datetime_timestamp/actions?query=workflow%3A%22Automated+Tests%22
+   :alt: Automated Tests
 
-.. .. image:: https://readthedocs.org/projects/backportsdatetime_timestamp/badge/?version=latest
-..    :target: https://backportsdatetime_timestamp.readthedocs.io/en/latest/?badge=latest
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+   :alt: Code style: Black
+
+.. .. image:: https://readthedocs.org/projects/skeleton/badge/?version=latest
+..    :target: https://skeleton.readthedocs.io/en/latest/?badge=latest
 
 
 Backport of the `datetime.timestamp()
