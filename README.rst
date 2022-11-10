@@ -1,10 +1,7 @@
 .. image:: https://img.shields.io/pypi/v/backports.datetime_timestamp.svg
-   :target: `PyPI link`_
+   :target: https://pypi.org/project/backports.datetime_timestamp
 
 .. image:: https://img.shields.io/pypi/pyversions/backports.datetime_timestamp.svg
-   :target: `PyPI link`_
-
-.. _PyPI link: https://pypi.org/project/backports.datetime_timestamp
 
 .. image:: https://github.com/jaraco/backports.datetime_timestamp/workflows/tests/badge.svg
    :target: https://github.com/jaraco/backports.datetime_timestamp/actions?query=workflow%3A%22tests%22
