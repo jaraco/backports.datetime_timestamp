@@ -24,6 +24,8 @@
 Backport of the `datetime.timestamp()
 <http://docs.python.org/3.3/library/datetime.html#datetime.datetime.timestamp>`_ method added in Python 3.3.
 
+Used as::
+
     from backports.datetime_timestamp import timestamp
     import datetime
 
