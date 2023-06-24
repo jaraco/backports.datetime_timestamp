@@ -7,7 +7,7 @@ Welcome to |project| documentation!
    history
 
 
-.. automodule:: PROJECT
+.. automodule:: backports.datetime_timestamp
     :members:
     :undoc-members:
     :show-inheritance:
